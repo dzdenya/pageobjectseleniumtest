@@ -14,9 +14,9 @@ public class SignUpPage {
     private By passwordField = By.xpath("//*[@id='password']");
     private By signUpButton = By.xpath("//*[@id='signup_button']");
     private By mainError = By.xpath("//div[contains(text(), 'There were problems creating your account')]");
-    private By userNameError = By.xpath("//dd[contains(text(), \"Login can't be blank\")]");
-    private By userEmailError = By.xpath("//dd[contains(text(), \"Email can't be blank\")]");
-    private By passwordError = By.xpath("//dd[text()=\"Password can't be blank and is too short (minimum is 7 characters)\"]");
+    private By userNameError = By.xpath("//input[@id='user_name']/ancestor::dd/following-sibling::dd");
+    private By userEmailError = By.xpath("//input[@id='user_email']/ancestor::dd/following-sibling::dd");
+    private By passwordError = By.xpath("//input[@id='user_password']/ancestor::dd/following-sibling::dd");
 
     public SignUpPage typeUserName(String username){
         driver.findElement(userNameField).sendKeys(username);
@@ -45,15 +45,15 @@ public class SignUpPage {
         return driver.findElement(heading).getText();
     }
 
-    public String getMainErroeText() {
+    public String getMainErrorText() {
         return driver.findElement(mainError).getText();
     }
 
-    public String getUsernameErroeText() {
+    public String getUsernameErrorText() {
         return driver.findElement(userNameError).getText();
     }
 
-    public String getEmailErroeText() {
+    public String getEmailErrorText() {
         return driver.findElement(userEmailError).getText();
     }
 

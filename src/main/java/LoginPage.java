@@ -41,7 +41,7 @@ public class LoginPage {
     }
 
     public SignUpPage createAccount() {
-        driver.findElement(createAnAccount);
+        driver.findElement(createAnAccount).click();
         return new SignUpPage(driver);
     }
 }
