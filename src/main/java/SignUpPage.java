@@ -11,10 +11,10 @@ public class SignUpPage {
     private By heading = By.xpath("//h1[text()='Join GitHub']");
     private By userNameField = By.xpath("//*[@id='user_login']");
     private By userEmailField = By.xpath("//*[@id='user_email']");
-    private By passwordField = By.xpath("//*[@id='password']");
+    private By passwordField = By.xpath("//input[@id='user_password']");
     private By signUpButton = By.xpath("//*[@id='signup_button']");
     private By mainError = By.xpath("//div[contains(text(), 'There were problems creating your account')]");
-    private By userNameError = By.xpath("//input[@id='user_name']/ancestor::dd/following-sibling::dd");
+    private By userNameError = By.xpath("//input[@id='user_login']/ancestor::dd/following-sibling::dd");
     private By userEmailError = By.xpath("//input[@id='user_email']/ancestor::dd/following-sibling::dd");
     private By passwordError = By.xpath("//input[@id='user_password']/ancestor::dd/following-sibling::dd");
 

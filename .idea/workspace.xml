@@ -13,11 +13,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginPageTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+            <state relative-caret-position="204">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SignUpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,9 +69,10 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SignUpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SignUpPage.java" />
       </list>
     </option>
   </component>
@@ -86,11 +111,6 @@
             <path>
               <item name="pageobjectseleniumtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageobjectseleniumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageobjectseleniumtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageobjectseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pageobjectseleniumtest" type="b2602c69:ProjectViewProjectNode" />
@@ -134,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/java_pft" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -154,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginPageTest">
+  <component name="RunManager" selected="JUnit.SignUpTest.signUpWithReservedNameTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -192,30 +212,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest.signUpInvalidEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pageobjectseleniumtest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPageTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MainPageTest.signUpEmptyUserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pageobjectseleniumtest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
-      <option name="METHOD_NAME" value="signUpEmptyUserNameTest" />
+      <option name="METHOD_NAME" value="signUpInvalidEmailTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -226,13 +229,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MainPageTest.signUpInvalidEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpTest.signUpWithReservedNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pageobjectseleniumtest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
-      <option name="METHOD_NAME" value="signUpInvalidEmailTest" />
+      <option name="MAIN_CLASS_NAME" value="SignUpTest" />
+      <option name="METHOD_NAME" value="signUpWithReservedNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SignUpTest.signUpWithShortPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pageobjectseleniumtest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignUpTest" />
+      <option name="METHOD_NAME" value="signUpWithShortPass" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -282,19 +302,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainPageTest" />
-      <item itemvalue="JUnit.MainPageTest.signUpEmptyUserNameTest" />
       <item itemvalue="JUnit.MainPageTest.signUpInvalidEmailTest" />
       <item itemvalue="JUnit.LoginPageTest.loginWithEmptyCredsTest" />
       <item itemvalue="JUnit.LoginPageTest" />
+      <item itemvalue="JUnit.SignUpTest.signUpWithShortPass" />
+      <item itemvalue="JUnit.SignUpTest.signUpWithReservedNameTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SignUpTest.signUpWithReservedNameTest" />
+        <item itemvalue="JUnit.SignUpTest.signUpWithShortPass" />
         <item itemvalue="JUnit.LoginPageTest" />
         <item itemvalue="JUnit.LoginPageTest.loginWithEmptyCredsTest" />
         <item itemvalue="JUnit.MainPageTest.signUpInvalidEmailTest" />
-        <item itemvalue="JUnit.MainPageTest.signUpEmptyUserNameTest" />
-        <item itemvalue="JUnit.MainPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,32 +330,11 @@
       <updated>1525699716274</updated>
       <workItem from="1525699723199" duration="1544000" />
       <workItem from="1525760062818" duration="621000" />
-      <workItem from="1525761506204" duration="16341000" />
+      <workItem from="1525761506204" duration="18886000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageTest_signInTest - 2018.05.08 at 14h 24m 24s.xml">
-      <configuration name="MainPageTest.signInTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_signInTest - 2018.05.08 at 14h 24m 52s.xml">
-      <configuration name="MainPageTest.signInTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest - 2018.05.08 at 14h 29m 12s.xml">
-      <configuration name="MainPageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_signUpEmptyUserNameTest - 2018.05.08 at 14h 32m 29s.xml">
-      <configuration name="MainPageTest.signUpEmptyUserNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_signUpInvalidEmailTest - 2018.05.08 at 14h 34m 41s.xml">
-      <configuration name="MainPageTest.signUpInvalidEmailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_signUpInvalidEmailTest - 2018.05.08 at 14h 43m 27s.xml">
-      <configuration name="MainPageTest.signUpInvalidEmailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginPageTest_loginWithEmptyCredsTest - 2018.05.08 at 15h 03m 18s.xml">
-      <configuration name="LoginPageTest.loginWithEmptyCredsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginPageTest_loginWithEmptyCredsTest - 2018.05.08 at 15h 35m 00s.xml">
       <configuration name="LoginPageTest.loginWithEmptyCredsTest" configurationId="JUnit" />
     </history-entry>
@@ -345,13 +344,33 @@
     <history-entry file="LoginPageTest_loginWithEmptyCredsTest - 2018.05.08 at 15h 46m 20s.xml">
       <configuration name="LoginPageTest.loginWithEmptyCredsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginPageTest - 2018.05.08 at 15h 50m 52s.xml">
+      <configuration name="LoginPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest_signUpWithShortPass - 2018.05.08 at 15h 59m 51s.xml">
+      <configuration name="SignUpTest.signUpWithShortPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest_signUpWithShortPass - 2018.05.08 at 16h 02m 25s.xml">
+      <configuration name="SignUpTest.signUpWithShortPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest_signUpWithShortPass - 2018.05.08 at 16h 03m 42s.xml">
+      <configuration name="SignUpTest.signUpWithShortPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest_signUpWithReservedNameTest - 2018.05.08 at 16h 08m 09s.xml">
+      <configuration name="SignUpTest.signUpWithReservedNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest_signUpWithReservedNameTest - 2018.05.08 at 16h 08m 34s.xml">
+      <configuration name="SignUpTest.signUpWithReservedNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest_signUpWithReservedNameTest - 2018.05.08 at 16h 10m 57s.xml">
+      <configuration name="SignUpTest.signUpWithReservedNameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18506000" />
+    <option name="totallyTimeSpent" value="21051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -367,7 +386,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115733735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12859304" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -382,6 +401,36 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32843137" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115733735" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39869282" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32843137" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -396,7 +445,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -584,50 +633,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1997#1998#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2104#2105#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,20 +655,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="714">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
